@@ -1,40 +1,43 @@
 /* Paleta de colores base e Industrial Theme */
 body {
-    background-color: #0D1117;
-    color: #E6EDF3;
+    background-color: #0D1117 !important;
+    color: #E6EDF3 !important;
+    margin: 0;
+    padding: 16px;
 }
 
 .bg-secondary {
-    background-color: #161B22;
+    background-color: #161B22 !important;
+    border-color: #21262D !important;
 }
 
 .bg-panel {
-    background-color: #1E2430;
+    background-color: #1E2430 !important;
 }
 
 .text-secondary-custom {
-    color: #8B949E;
+    color: #8B949E !important;
 }
 
 /* Clases de semáforos de estado mecánico */
 .color-exito {
-    color: #22C55E;
+    color: #22C55E !important;
 }
 
 .color-alerta {
-    color: #FBBF24;
+    color: #FBBF24 !important;
 }
 
 .color-critico {
-    color: #EF4444;
+    color: #EF4444 !important;
 }
 
 .color-azul {
-    color: #3B82F6;
+    color: #3B82F6 !important;
 }
 
 .color-morado {
-    color: #8B5CF6;
+    color: #8B5CF6 !important;
 }
 
 /* Personalización rápida del scrollbar del Monitor de Eventos */
@@ -45,6 +48,6 @@ body {
     background: #000;
 }
 #logger-console::-webkit-scrollbar-thumb {
-    background: #222;
+    background: #30363D;
     border-radius: 3px;
 }
